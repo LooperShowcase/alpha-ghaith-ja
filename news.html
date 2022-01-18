@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <title>new</title>
+  </head>
+  <body>
+    <ul>
+      <li><a class="active" href="index.html">Home</a></li>
+      <li><a href="news.html">Mohamd Ali is Dead</a></li>
+      <li><a href="contact">Contact</a></li>
+      <li><a href="about">About</a></li>
+    </ul>
+    <button onclick="gaith()"> randomColor </button>
+<button onclick="khaled()"> white </button>
+    <h1>How mohamd ali is did</h1>
+    <p>Death
+        Ali died on June 3, 2016, in Phoenix, Arizona, after being hospitalized for what was reportedly a respiratory issue. He was 74 years old.
+        
+        The boxing legend had been suffering from Parkinson’s disease and spinal stenosis. In early 2015, the athlete battled pneumonia and was hospitalized for a severe urinary tract infection.</p1>
+    <img src="https://static.dw.com/image/19306864_303.jpg">
+    <script>
+    function gaith() {
+      var randomColor = '#'+Math.floor(Math.random()*16777215).toString(16);
+      document.body.style.backgroundColor = randomColor;
+    }
+    function khaled() {
+      document.body.style.backgroundColor = "white";
+    }
+    </script>
+
+
+
+
+
+
+    </body>
+</html>
